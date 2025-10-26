@@ -131,6 +131,7 @@ function Display() {
         toast.success("Updated Successfully")
         handleClose()
         setid("")
+        getspecificdetails()
       }
       else{
         toast.error("Something went wrong")
