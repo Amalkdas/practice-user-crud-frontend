@@ -132,6 +132,7 @@ function Display() {
         handleClose()
         setid("")
         getspecificdetails()
+        getdetails()
       }
       else{
         toast.error("Something went wrong")
